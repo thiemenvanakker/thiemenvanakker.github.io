@@ -1,16 +1,31 @@
-<div class="navbar">  
-    <a href="index.html">Home</a>
-    <a href="kleurmodellen.html">Kleurmodel</a>
-    <a href="Compressietechnieken.html">Compressie</a>
-    <a href="binairstelsel.html">Binairestelsel</a><!--de navigation bar-->
-    <div class="dropdown">
-      <button class="dropbtn">Dropdown ▼
-      </button>
-      <div class="dropdown-content"> <!--Dit zijn de links die je ziet als je over dropdown heen gaat met je cursor-->
-        <a href="index.html">Home</a>
-        <a href="kleurmodellen.html">Kleurmodel</a>
-        <a href="Compressietechnieken.html">Compressie</a>
-        <a href="binairstelsel.html">Binaire stelsel</a>
-      </div>
-    </div> 
-  </div> <!--het maken van een dropdown menu met <div>-->
+<!DOCTYPE html>
+<html>
+    <head>   
+     <title> Mijn pagina </title> 
+     <link rel="stylesheet" type="text/css" href="Opmaak.css"> 
+    </head>    
+    <body>
+        <ul class="top-level-menu">
+            <li><a href="index.html">About</a></li>
+            <li><a href="index.html">Services</a></li>
+            <li>
+                <a href="index.html">Offices</a>
+                <ul class="second-level-menu">
+                    <li><a href="index.html">Chicago</a></li>
+                    <li><a href="index.html">Los Angeles</a></li>
+                    <li>
+                        <a href="index.html">New York</a>
+                        <ul class="third-level-menu">
+                            <li><a href="index.html">Information</a></li>
+                            <li><a href="index.html">Book a Meeting</a></li>
+                            <li><a href="index.html">Testimonials</a></li>
+                            <li><a href="index.html">Jobs</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html">Seattle</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html">Contact</a></li>
+        </ul>
+    </body>  
+</html>
