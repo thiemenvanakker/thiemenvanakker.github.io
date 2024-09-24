@@ -76,9 +76,8 @@ li a {
     text-decoration: none;
 }
 
- Change the link color to #111 (black) on hover 
 li a:hover {
-    background-color: #0820cf4b;
+    color: #111;
 }
 
 .third-level-menu
