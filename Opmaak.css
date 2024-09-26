@@ -40,7 +40,7 @@ li a:hover {
   height: 30px;
   background: #999999;
 }
-.third-level-menu > li:hover { background: #CCCCCC; }
+.third-level-menu > li:hover { background: #2236cd; }
 
 .second-level-menu
 {
@@ -58,9 +58,9 @@ li a:hover {
 {
   position: relative;
   height: 30px;
-  background: #999999;
+  background: #13c448;
 }
-.second-level-menu > li:hover { background: #CCCCCC; }
+.second-level-menu > li:hover { background: #092abe; }
 
 .top-level-menu
 {
