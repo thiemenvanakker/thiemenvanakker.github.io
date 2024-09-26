@@ -24,7 +24,7 @@ li a:hover {
 }
 
 /* Menu Styles */
-.third-level-menu
+#third-level-menu
 {
     position: absolute;
     top: 0;
@@ -36,14 +36,14 @@ li a:hover {
     display: none;
 }
 
-.third-level-menu > li
+#third-level-menu > li
 {
     height: 30px;
     background: #999999;
 }
-.third-level-menu > li:hover { background: #CCCCCC; }
+#third-level-menu > li:hover { background: #CCCCCC; }
 
-.second-level-menu
+#second-level-menu
 {
     position: absolute;
     top: 30px;
@@ -55,22 +55,22 @@ li a:hover {
     display: none;
 }
 
-.second-level-menu > li
+#second-level-menu > li
 {
     position: relative;
     height: 30px;
     background: #999999;
 }
-.second-level-menu > li:hover { background: #CCCCCC; }
+#second-level-menu > li:hover { background: #CCCCCC; }
 
-.top-level-menu
+#top-level-menu
 {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.top-level-menu > li
+#top-level-menu > li
 {
     position: relative;
     float: left;
@@ -78,9 +78,9 @@ li a:hover {
     width: 150px;
     background: #999999;
 }
-.top-level-menu > li:hover { background: #CCCCCC; }
+#top-level-menu > li:hover { background: #CCCCCC; }
 
-.top-level-menu li:hover > ul
+#top-level-menu li:hover > ul
 {
     /* On hover, display the next level's menu */
     display: inline;
@@ -89,7 +89,7 @@ li a:hover {
 
 /* Menu Link Styles */
 
-.top-level-menu a /* Apply to all links inside the multi-level menu */
+#top-level-menu a /* Apply to all links inside the multi-level menu */
 {
     font: bold 14px Arial, Helvetica, sans-serif;
     color: #FFFFFF;
@@ -100,4 +100,4 @@ li a:hover {
     display: block;
     line-height: 30px;
 }
-.top-level-menu a:hover { color: #000000; }
+#top-level-menu a:hover { color: #000000; }
