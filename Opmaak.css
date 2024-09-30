@@ -30,31 +30,31 @@ li a:hover {
   overflow: hidden;
 }
 
-.dropdown .dropbtn { /*kleur en opmaak van de knop zelf*/
+.dropdown .dropbtn { 
   font-size: 16px;  
   border: none;
   outline: none;
-  color: lightblue;
+  color: rgb(89, 205, 237);
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn { /*kleur voor de hover voor de button*/
+.navbar a:hover, .dropdown:hover .dropbtn { 
   background-color: rgb(0, 0, 40);
 }
 
-.dropdown-content { /*opmaak van de inhoud van de dropdown*/
+.dropdown-content { 
   display: none;
   position: absolute;
   background-color: rgb(0, 0, 111);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1; /*code zodat de dropdown bovenaan de website komt*/
+  z-index: 1; 
 }
 
-.dropdown-content a { /*opmaak voor de tekst van de inhoud dropdown*/
+.dropdown-content a { 
   float: none;
   color: lightblue;
   padding: 12px 16px;
@@ -63,10 +63,10 @@ li a:hover {
   text-align: left;
 }
 
-.dropdown-content a:hover { /*kleur voor de hover van de inhoud van de dropdown*/
+.dropdown-content a:hover { 
   background-color: rgb(0, 0, 40);
 }
 
-.dropdown:hover .dropdown-content { /*wat voor soort display de dropdown heeft*/
+.dropdown:hover .dropdown-content { 
   display: block
 }
